@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+  </head>
+  <body>
+      <!-- barre de navigation -->
+      <nav>
+        <ul>
+          <li><a href="acceuil">Acceuil</a></li>
+          <li><a href="apropos">A propos</a></li>
+          <li><a href="travail">Travail</a></li>
+          <li><a href="CV">CV</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Exemple de tableau -->
+
+      <div>
+        <h1>Tableau</h1>
+        <table border="1" width="50%">
+          <caption>Tableau de population</caption>
+            <thead>
+              <tr>
+                <th><strong>PAYS</strong></th>
+                <th><strong>POPULATION</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Côte d'Ivoire</td>
+                <td>30 MILLIONS</td>
+              </tr>
+              <tr>
+                <td>BURKINA</td>
+                <td>25 MILLIONS</td>
+              </tr>
+              <tr>
+                <td>GHANA</td>
+                <td>46 MILLIONS</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+
+      <!-- section acceuil -->
+      <section>
+        <h1>Acceuil</h1>
+          <p>Lorem ipsum dolor sit  amet consectetur adipisicing elit. 
+            Tempora, fugiat perferendis delectus illum natus impedit quos consequatur cumque quas magni. 
+            Pariatur temporibus atque corporis <mark>perferendis assumenda eaque</mark>
+            Quod magni pariatur <strong>neque maiores unde ipsa itaque,</strong> voluptate, quaerat autem, laborum ipsum sunt optio!
+          </p>
+      </section>
+
+      <!-- section apropos -->
+      <section>
+        <h1>A propos</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempora, fugiat perferendis delectus illum natus impedit quos consequatur cumque quas magni. 
+            Pariatur temporibus atque corporis debitis est neque, perferendis assumenda eaque. 
+            Quod magni pariatur neque maiores unde ipsa itaque, voluptate, quaerat autem, laborum ipsum sunt optio!
+          </p>
+      </section>
+
+      <!-- section travail -->
+      <section>
+        <h1>Travail</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempora, fugiat perferendis delectus illum natus impedit quos consequatur cumque quas magni. 
+            Pariatur temporibus atque corporis debitis est neque, perferendis assumenda eaque. 
+            Quod magni pariatur neque maiores unde ipsa itaque, voluptate, quaerat autem, laborum ipsum sunt optio!
+          </p>
+          <img src="h.png" alt="logo html"> <img src="c.png" alt="logo css"> <img src="j.png" alt="logo js">
+      </section>
+      
+      <!-- section cv -->
+      <section>
+        <h1>CV</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempora, fugiat perferendis delectus illum natus impedit quos consequatur cumque quas magni. 
+            Pariatur temporibus atque corporis debitis est neque, perferendis assumenda eaque. 
+            Quod magni pariatur neque maiores unde ipsa itaque, voluptate, quaerat autem, laborum ipsum sunt optio!
+          </p>
+      </section>
+
+      <!-- section contact -->
+      <section>
+        <form action="">
+
+          <!-- formulaire -->
+          <label for="nom">Nom:</label>
+          <input type="text" id="nom" placeholder="Entrez votre nom svp..."><br>
+          <label for="prenom">Prenom</label>
+          <input type="text" id="prenom" placeholder="Entrez votre prenom svp..."><br>
+          <label for="age">Age</label>
+          <input type="number" id="age" min="00" max="99" step="1"><br>
+          <label for="email">email</label>
+          <input type="text" id="email" placeholder="Entrez votre addresse mail svp..."><br>
+
+           <!-- selection du genre -->
+          <label for="genre">Genre</label>
+            <select id="genre">
+              <option value="homme">HOMME</option>
+              <option value="homme">FEMME</option>
+            </select><br>
+          
+          <!-- bouton radio -->
+          <div>
+            <input type="radio" id="abidjan" name="ville">
+            <label for="abidjan">Abidjan</label>
+
+            <input type="radio" id="yamoussoukro" name="ville">
+            <label for="yamoussoukro">Yamoussoukro</label>
+
+            <input type="radio" id="bouake" name="ville">
+            <label for="bouake">bouaké</label>
+          </div>
+
+          <textarea id="" cols="30" rows="10" placeholder="Entrez votre question..."></textarea><br>
+          <input type="button" value="Valider">
+        </form>
+      </section><br>
+
+      <!-- Pied de page -->
+      <footer>
+        <p>&copy; 2023 Mon point de controle HTML -- ELISEE--</p>
+      </footer>
+  </body>
+</html>
